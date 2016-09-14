@@ -1,7 +1,10 @@
 # Site navigation links
 
-- title: Travel
-  url: /blog/
+- title: Sights
+  url: /sights/
+
+- title: Snaps
+  url: /snaps/
 
 - title: Search
   url: /search/
