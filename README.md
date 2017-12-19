@@ -30,8 +30,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Basics
 install nodejs
+
 update npm (`npm install npm@latest -g`)
+
 install angular cli (`npm install -g @angular/cli@latest`)
+
 install npm-check-updates (`npm install -g npm-check-updates`)
+
 update all dependencies (`ncu -u -a`)
+
 re-install node_modules (delete node_modules folder + package-lock.json file) & run `npm install`
