@@ -6,28 +6,6 @@
       </button>
       <label>{{ homeTitle }}</label>
     </span>
-
-    <span class="home-toolbar-spacer"></span>
-
-    <button mat-icon-button>
-        <mat-icon matTooltip="Profile">account_circle</mat-icon>
-    </button>
-
-    <button mat-icon-button>
-      <mat-icon matTooltip="Company">business</mat-icon>
-    </button>
-
-    <button mat-icon-button>
-      <mat-icon matTooltip="Settings">settings</mat-icon>
-    </button>
-
-    <button mat-icon-button>
-      <mat-icon matTooltip="Support">help</mat-icon>
-    </button>
-
-    <button mat-icon-button>
-      <mat-icon matTooltip="Feedback">feedback</mat-icon>
-    </button>
   </mat-toolbar>
 
   <mat-sidenav #homeMenuSideNav mode="over" opened="false">
@@ -35,45 +13,10 @@
     <mat-list dense>
       <mat-list-item>
         <button mat-icon-button (click)="homeMenuSideNav.toggle()">
-          <mat-icon matTooltip="Search">search</mat-icon>
-        </button>
-      </mat-list-item>
-      <mat-list-item>
-        <button mat-icon-button (click)="homeMenuSideNav.toggle()">
-          <mat-icon matTooltip="Applications">assignment</mat-icon>
-        </button>
-      </mat-list-item>
-      <mat-list-item>
-        <button mat-icon-button (click)="homeMenuSideNav.toggle()">
-          <mat-icon matTooltip="Manage Projects">folder</mat-icon>
-        </button>
-      </mat-list-item>
-      <mat-list-item>
-        <button mat-icon-button (click)="homeMenuSideNav.toggle()">
-          <mat-icon matTooltip="Add Project">create_new_folder</mat-icon>
-        </button>
-      </mat-list-item>
-      <mat-list-item>
-        <button mat-icon-button (click)="homeMenuSideNav.toggle()">
-          <mat-icon matTooltip="Manage Roles">collections_bookmark</mat-icon>
-        </button>
-      </mat-list-item>
-      <mat-list-item>
-        <button mat-icon-button (click)="homeMenuSideNav.toggle()">
-          <mat-icon matTooltip="Add Role">book</mat-icon>
-        </button>
-      </mat-list-item>
-      <mat-list-item>
-        <button mat-icon-button (click)="homeMenuSideNav.toggle()">
-          <mat-icon matTooltip="Manage Users">people</mat-icon>
-        </button>
-      </mat-list-item>
-      <mat-list-item>
-        <button mat-icon-button (click)="homeMenuSideNav.toggle()">
-          <mat-icon matTooltip="Add User">person_add</mat-icon>
+          <label>Sights</label>
         </button>
       </mat-list-item>
     </mat-list>
   </mat-sidenav>
-  
+
 </mat-sidenav-container>
